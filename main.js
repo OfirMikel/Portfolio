@@ -1,6 +1,5 @@
 import * as THREE from "https://unpkg.com/three@0.126.1/build/three.module.js";
 import { OrbitControls } from "https://unpkg.com/three@0.126.1/examples/jsm/controls/OrbitControls.js";
-// import { FontLoader } from "three/examples/jsm/loaders/FontLoader";
 import * as dat from "dat.gui";
 
 // console.log(FontLoader);
@@ -107,8 +106,6 @@ generatePlane();
 
 //-----------testing-----------
 
-// scene.background = new THREE.Color("#ffffff");
-// document.getElementById("html-text").style.display = "none";
 scene.add(planeMesh);
 scene.add(light);
 
@@ -286,14 +283,48 @@ const textureLoader = new THREE.TextureLoader();
 const geometry = new THREE.PlaneBufferGeometry(70, 168);
 // ----- Generating the images -----
 let material = [];
-let img = [];
-for (let i = -2; i < 4; i++) {
-  material.push(
-    new THREE.MeshBasicMaterial({
-      map: textureLoader.load("/images/" + i + ".jpg"),
-    })
-  );
+import img0 from "./images/-2.jpg";
+import img1 from "./images/-1.jpg";
+import img2 from "./images/0.jpg";
+import img3 from "./images/1.jpg";
+import img4 from "./images/2.jpg";
+import img5 from "./images/3.jpg";
 
+console.log(img0);
+let img = [];
+
+material.push(
+  new THREE.MeshBasicMaterial({
+    map: textureLoader.load(img0),
+  })
+);
+material.push(
+  new THREE.MeshBasicMaterial({
+    map: textureLoader.load(img1),
+  })
+);
+material.push(
+  new THREE.MeshBasicMaterial({
+    map: textureLoader.load(img2),
+  })
+);
+material.push(
+  new THREE.MeshBasicMaterial({
+    map: textureLoader.load(img3),
+  })
+);
+material.push(
+  new THREE.MeshBasicMaterial({
+    map: textureLoader.load(img4),
+  })
+);
+material.push(
+  new THREE.MeshBasicMaterial({
+    map: textureLoader.load(img5),
+  })
+);
+
+for (let i = -2; i < 4; i++) {
   img.push(new THREE.Mesh(geometry, material[i + 2]));
   const y = i + 2;
   img[i + 2].name = y + "";
