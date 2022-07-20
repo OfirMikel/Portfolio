@@ -1,0 +1,19 @@
+{
+  "name": "trythreejs",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.1.6",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "gh-pages": "^4.0.0",
+    "gsap": "^3.10.4"
+  }
+}
