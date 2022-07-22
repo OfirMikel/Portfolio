@@ -1,6 +1,6 @@
 
 
-<script type="module" crossorigin src="/Portfolio/assets/index.a3b5cb73.js"></script>
+<script type="module" crossorigin src="/Portfolio/assets/index.7bb0d436.js"></script>
 
 <body id="page">
 
@@ -24,12 +24,10 @@
             <img src="/Portfolio/assets/0.0051cfc7.jpg" alt="about me" class="image">
                  
             <h1 class="headline-text"> About Me </h1>      
-            <p class="par-text"> My name is Ofir Mikel ,I live in a small village in the northern part of israel. I have a true passion for 
-                Frontend designing , developing and Extreme sports. I served
-                as a jump master, drop master and mobile app developer at the parachuting 
-                Unit of the IDF and I was awarded a certificate for being an outstanding soldier by the commander of 
-                the infantry corps on Independence day 2022.</p>
-
+            <p class="par-text"> 
+                I live in small village in the northern part of israel. I have a true passion for Frontend developing, Designing and Sports Extreme. 
+                I served as a fighting soldier,jump master, drop master and mobile app developer at the Parachuting Unit of the IDF and I was awarded a certificate for being 
+                an outstanding soldier by the commander of the infantry corps on Independence day 2022. </p>
            <button class="grid-back hover:text-black" id="return">
             Back To My Projects <strong> &rarr; </strong> </button>
         </div>
@@ -45,10 +43,10 @@
 
 
             <h1 class="text-headline-miluin"><circle></circle>Milu->In</h1>
-            <p class="text-paragraph-miluin">Is a Java based app that help with sorting and listing of soldiers. 
-                    the App Send Sms to the soldier on the day of his arrival and the app then can read the sms inbox file to know whether he arrived or not .
-                     The app uses two SQLite DB that created locally in your device one for the details of the soldiers and another sets the 
-                     list of all the invited soldiers .</p>
+            <p class="text-paragraph-miluin">It is Java based app that helps with the sorting and listing of soldiers . the app sends sms messages
+                 to the soldier on the day of his arrival and it can then read the sms inbox file to know whether he arrived or not . The app uses
+                  two SQLite DB that is created locally in your device one is for the 
+                details of the soldier, and another sets the list of all the invited soldiers .</p>
 
             <button class="grid-back-miluin hover:text-black" id="return-from-miluin">
                 Back To My Projects <strong-miluin> &rarr; </strong-miluin> </button>
@@ -89,8 +87,9 @@
             
          
             <h1 class="text-headline-mountain">Mountain Advisor</h1>
-            <p class="text-paragraph-mountain">Is a flutter dart based app with a use of a rest API (credit - dbestech). 
-                The app let the user choose multiple trips and learn more about them and show them the estimated price for the trip. All with a beautiful designs and views.</p>
+            <p class="text-paragraph-mountain">It is a flutter dart based app with a use of a rest API (credit - dbestech). 
+                The app let the user choose multiple trips, learn more about them and show the estimated price for the trip.
+                 All with a beautiful designs and imagery.</p>
             
             <button class="grid-back-mountain hover:text-black" id="return-from-mountain">
                 Back To My Projects <strong-mountain> &rarr; </strong-mountain> </button>
@@ -109,8 +108,9 @@
                 
              
             <h1 class="text-headline-artify">ArtIfy</h1>
-            <p class="text-paragraph-artify">Is a <strong-portfolio>React-Native</strong-portfolio> base mobile app that sort by categories
-                 the painting and art work of the talented Vicky davilman, the app uses <strong-portfolio>Firebase</strong-portfolio> to save the data and for the log in. </p>
+            <p class="text-paragraph-artify">It is a <strong-portfolio>React-Native</strong-portfolio> based mobile app that 
+                categorically sorts the paintings and art works of the talented Vicky Davilman.
+                The app uses <strong-portfolio>Firebase</strong-portfolio> to save the data and for the log in. </p>
             
             <button class="grid-back-artify hover:text-black" id="return-from-artify">
                 Back To My Projects &rarr; </button>
@@ -843,8 +843,8 @@
         .container-mountain{
             display: grid;
             gap: 1rem;
-            grid-template-columns: repeat(6, 1fr) ; 
-            grid-template-rows: max-content max-content 1fr max-content;
+            grid-template-columns: repeat(3, 1fr) ; 
+            grid-template-rows: max-content max-content max-content max-content;
             justify-content: center;
             align-content: center;
             padding: 1rem 1rem 1rem 1rem;
@@ -852,33 +852,33 @@
         }
         .text-headline-mountain{
             grid-column: 1 / -1;
-            grid-row: 1 ; 
+            grid-row: 1 / 2 ; 
             /* typography */
             font-family: 'Lora';
             font-style: normal;
             font-weight: 400;
             font-size: 30px;
-            line-height: 50px;
-            place-self: start start;
+            line-height: 30px;
+            place-self: center center;
+            margin-left: 0% ;
             color: #000000;
         }
         .text-paragraph-mountain{
             grid-column: 2 / -1;
-            grid-row: 2 ; 
+            grid-row: 2 / 3 ; 
             place-self: center start;
-
+            margin-left: 0% ;
             /* typography */
             font-family: 'Edu SA Beginner';
             font-style: normal;
             font-weight: 500;
             font-size: 20px;
-            line-height: 40px;
-            padding-right: 1em;
+            line-height: 26px;
             color: #000000;
         }
         .image1-tilted-mountain{
             grid-row: 2 / 3 ;
-            grid-column: 1 / 6 ;
+            grid-column: 1 / 2 ;
             width: 100%;
             transition: all 0.35s ease-in-out;
             margin-left: -10%;
@@ -887,23 +887,23 @@
         }
         .image2-bottom-dialog-mountain{
             grid-row: 3 / 4;
-            grid-column: 1 / 6;
+            grid-column: 1 / 3;
             width: 100%;
             height: auto;
             place-self: center center;
             transition: all 0.35s ease-in-out;
-
         }
         .image-flutter{
-            grid-row: 3 ;
-            grid-column: 3 / -1 ;
-            width: 7rem;
+            grid-row: 3 / 4 ;
+            grid-column: 3 / 4 ;
+            width: 100%;
             transition: all 0.35s ease-in-out;
-            place-self: center center; 
+            place-self: center start; 
+            margin-left: -2em;
         }
         .green-line-mountain{
             /* grid */
-            grid-row: 3;
+            grid-row: 3 / 4;
             grid-column: 1 / -1;
             /* typography */
             font-family: 'Exo 2';
@@ -915,16 +915,13 @@
             background: rgba(97, 208, 255, 0.5);
             color: #FFFFFF;
             height: 4rem;
-            margin-top: auto;
-            margin-bottom: auto;
+            width: 100%;
+            place-self: center center;
             z-index: -2;
-
-
-
         }
         .grid-back-mountain{
-            grid-column: -2;
-            grid-row: 4; 
+            grid-column: 1 / -1;
+            grid-row: 4 / 5; 
             text-align: left;
             font-family: 'Exo 2';
             font-style: normal;
