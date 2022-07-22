@@ -1,8 +1,8 @@
 import * as THREE from "https://unpkg.com/three@0.126.1/build/three.module.js";
 import { OrbitControls } from "https://unpkg.com/three@0.126.1/examples/jsm/controls/OrbitControls.js";
 import * as dat from "dat.gui";
+import { SwipeEventListener } from "swipe-event-listener";
 
-// console.log(FontLoader);
 import gsap from "gsap";
 const world = {
   plane: {
@@ -281,6 +281,20 @@ let der = 25 / 360;
 let position = 2 * der + 0.25;
 const textureLoader = new THREE.TextureLoader();
 const geometry = new THREE.PlaneBufferGeometry(70, 168);
+
+const { swipeArea, updateOptions } = SwipeEventListener({
+  swipeArea: document.querySelector("body"),
+});
+swipeArea.addEventListener("swipeLeft", (event) => {
+  y = y + 0.008;
+  console.log(event.deltaY);
+});
+
+swipeArea.addEventListener("swipeRight", () => {
+  y = y - 0.008;
+  // console.log(y);
+});
+
 // ----- Generating the images -----
 let material = [];
 import img0 from "./images/-2.jpg";
@@ -290,7 +304,6 @@ import img3 from "./images/1.jpg";
 import img4 from "./images/2.jpg";
 import img5 from "./images/3.jpg";
 
-console.log(img0);
 let img = [];
 
 material.push(
@@ -431,7 +444,6 @@ function wheelLListener() {
   function onclick(event) {
     mouseClick.x = (event.clientX / innerWidth - 0.5) * 2;
     mouseClick.y = (event.clientY / innerHeight - 0.5) * -2;
-    console.log("click");
   }
   raycaster1.setFromCamera(mouseClick, camera);
   const intersectsClick = raycaster1.intersectObjects(img);
