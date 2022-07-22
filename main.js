@@ -291,7 +291,7 @@ swipeArea.addEventListener("swipeLeft", (event) => {
 });
 
 swipeArea.addEventListener("swipeRight", () => {
-  y = y - 0.008;
+  y = y - 0.004;
   // console.log(y);
 });
 
