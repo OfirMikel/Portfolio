@@ -286,13 +286,11 @@ const { swipeArea, updateOptions } = SwipeEventListener({
   swipeArea: document.querySelector("body"),
 });
 swipeArea.addEventListener("swipeLeft", (event) => {
-  y = y + 0.008;
-  console.log(event.deltaY);
+  y = y + 0.005;
 });
 
 swipeArea.addEventListener("swipeRight", () => {
-  y = y - 0.004;
-  // console.log(y);
+  y = y - 0.005;
 });
 
 // ----- Generating the images -----
