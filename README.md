@@ -27,7 +27,6 @@
 <h2>Future Enhancements</h2>
 <p>While the current version of the portfolio project highlights a range of skills, I plan to continue refining and expanding it in the future:</p>
 <ul>
-  <li><strong>Additional Projects:</strong> I will regularly update the portfolio with new projects as I continue to develop my programming and design skills.</li>
   <li><strong>Improved UI/UX:</strong> I will focus on enhancing the user interface and experience to ensure a seamless and enjoyable interaction for visitors.</li>
   <li><strong>Performance Optimization:</strong> As the project evolves, I will work on optimizing the website's performance to ensure fast loading times and smooth animations.</li>
 </ul>
