@@ -1,5 +1,8 @@
 <h1>Portfolio Project - Showcasing Programming and Design Skills</h1>
-<img src="link_to_cover_image.jpg" alt="Project Cover Image">
+
+<img src="screen.png" width="1500px" alt="Project Cover Image">
+
+[To see More Click Here](https://ofirmikel.github.io/Portfolio/)
 
 <h2>Description</h2>
 <p>Welcome to my portfolio project where I have combined my programming and designing skills to create an interactive website that demonstrates various aspects of my abilities. The website is built using a combination of JavaScript, Three.js, HTML, and CSS to create a visually appealing and engaging experience.</p>
@@ -20,13 +23,6 @@
   <li><strong>HTML:</strong> Used to structure the content and layout of the website.</li>
   <li><strong>CSS:</strong> Employed to style and design the website, ensuring a visually pleasing and responsive interface.</li>
 </ul>
-
-<h2>Installation and Usage</h2>
-<ol>
-  <li>Clone the repository to your local machine.</li>
-  <li>Open the project directory in a code editor of your choice.</li>
-  <li>Launch the <code>index.html</code> file in a web browser to experience the interactive portfolio.</li>
-</ol>
 
 <h2>Future Enhancements</h2>
 <p>While the current version of the portfolio project highlights a range of skills, I plan to continue refining and expanding it in the future:</p>
