@@ -1,4 +1,4 @@
-<h1>Portfolio Project - Showcasing Programming and Design Skills</h1>
+<h1>Portfolio Project - Showcasing My Projects , Programming and Design Skills</h1>
 
 <img src="screenshot.png" width="1500px" alt="Project Cover Image">
 
@@ -33,6 +33,6 @@
 </ul>
 
 <h2>Contact Information</h2>
-<p>If you have any questions, feedback, or would like to get in touch, please feel free to reach out to me at <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+<p>If you have any questions, feedback, or would like to get in touch, please feel free to reach out to me at <a href="mikelofir@gmail.com">mikelofir@gmail.com</a>.</p>
 
 <p>Thank you for visiting my portfolio project and exploring my programming and design journey!</p>
