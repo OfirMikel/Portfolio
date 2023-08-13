@@ -1,6 +1,6 @@
 <h1>Portfolio Project - Showcasing Programming and Design Skills</h1>
 
-<img src="screen.png" width="1500px" alt="Project Cover Image">
+<img src="screenshot.png" width="1500px" alt="Project Cover Image">
 
 [To see More Click Here](https://ofirmikel.github.io/Portfolio/)
 
